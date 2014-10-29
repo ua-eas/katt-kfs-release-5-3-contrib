@@ -393,7 +393,7 @@
         
         <insert tableName="KRIM_PERM_ATTR_DATA_T">
             <column name="ATTR_DATA_ID" value="KFS10870" />
-            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-222" />
+            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-223" />
             <column name="VER_NBR" valueNumeric="1" />
             <column name="PERM_ID" value="KFS10868" />
             <column name="KIM_TYP_ID" value="11" />
@@ -402,7 +402,7 @@
         </insert>
         <insert tableName="KRIM_PERM_ATTR_DATA_T">
             <column name="ATTR_DATA_ID" value="KFS10871" />
-            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-223" />
+            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-224" />
             <column name="VER_NBR" valueNumeric="1" />
             <column name="PERM_ID" value="KFS10868" />
             <column name="KIM_TYP_ID" value="11" />
@@ -411,7 +411,7 @@
         </insert>
         <insert tableName="KRIM_PERM_ATTR_DATA_T">
             <column name="ATTR_DATA_ID" value="KFS10872" />
-            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-224" />
+            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-225" />
             <column name="VER_NBR" valueNumeric="1" />
             <column name="PERM_ID" value="KFS10869" />
             <column name="KIM_TYP_ID" value="11" />
@@ -420,7 +420,7 @@
         </insert>
         <insert tableName="KRIM_PERM_ATTR_DATA_T">
             <column name="ATTR_DATA_ID" value="KFS10873" />
-            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-225" />
+            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-226" />
             <column name="VER_NBR" valueNumeric="1" />
             <column name="PERM_ID" value="KFS10869" />
             <column name="KIM_TYP_ID" value="11" />
@@ -429,7 +429,7 @@
         </insert>
         <insert tableName="KRIM_PERM_ATTR_DATA_T">
             <column name="ATTR_DATA_ID" value="KFS10876" />
-            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-226" />
+            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-227" />
             <column name="VER_NBR" valueNumeric="1" />
             <column name="PERM_ID" value="KFS10828" />
             <column name="KIM_TYP_ID" value="11" />
@@ -438,7 +438,7 @@
         </insert>
         <insert tableName="KRIM_PERM_ATTR_DATA_T">
             <column name="ATTR_DATA_ID" value="KFS10877" />
-            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-227" />
+            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-228" />
             <column name="VER_NBR" valueNumeric="1" />
             <column name="PERM_ID" value="KFS10828" />
             <column name="KIM_TYP_ID" value="11" />
@@ -447,7 +447,7 @@
         </insert>
         <insert tableName="KRIM_PERM_ATTR_DATA_T">
             <column name="ATTR_DATA_ID" value="KFS10878" />
-            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-228" />
+            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-229" />
             <column name="VER_NBR" valueNumeric="1" />
             <column name="PERM_ID" value="KFS10828" />
             <column name="KIM_TYP_ID" value="11" />
@@ -456,7 +456,7 @@
         </insert>
         <insert tableName="KRIM_PERM_ATTR_DATA_T">
             <column name="ATTR_DATA_ID" value="KFS10879" />
-            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-229" />
+            <column name="OBJ_ID" value="KFS-PERM-ATTR-DATA-230" />
             <column name="VER_NBR" valueNumeric="1" />
             <column name="PERM_ID" value="KFS10828" />
             <column name="KIM_TYP_ID" value="11" />
