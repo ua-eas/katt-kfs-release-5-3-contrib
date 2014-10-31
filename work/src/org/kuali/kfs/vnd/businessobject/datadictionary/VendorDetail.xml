@@ -150,6 +150,17 @@
 						</list>
 					</property>
 				</bean>
+				<bean parent="RelationshipDefinition">
+					<property name="objectAttributeName" value="vendorHeader.vendorCountry" />
+					<property name="primitiveAttributes">
+						<list>
+							<bean parent="PrimitiveAttributeDefinition" p:sourceName="vendorHeader.vendorCorpCitizenCode"
+								p:targetName="code" />
+						</list>
+					</property>
+					
+				</bean>
+				
 			</list>
 		</property>
 	</bean>
@@ -1463,10 +1474,12 @@
 			<list>
 				<bean parent="FieldDefinition" p:attributeName="vendorName" />
 				<bean parent="FieldDefinition" p:attributeName="vendorHeader.vendorTaxNumber" />
+				<bean parent="FieldDefinition" p:attributeName="vendorHeader.vendorForeignTaxId" />
 				<bean parent="FieldDefinition" p:attributeName="vendorNumber" />
 				<bean parent="FieldDefinition" p:attributeName="activeIndicator" />
 				<bean parent="FieldDefinition" p:attributeName="vendorHeader.vendorTypeCode" />
 				<bean parent="FieldDefinition" p:attributeName="vendorAddresses.vendorStateCode" />
+				<bean parent="FieldDefinition" p:attributeName="vendorHeader.vendorCorpCitizenCode" />
 				<bean parent="FieldDefinition" p:attributeName="vendorCommodities.purchasingCommodityCode" />
 				<bean parent="FieldDefinition"
 					p:attributeName="vendorHeader.vendorSupplierDiversities.vendorSupplierDiversityCode" />
@@ -1481,6 +1494,7 @@
 				<bean parent="FieldDefinition" p:attributeName="activeIndicator" />
 				<bean parent="FieldDefinition" p:attributeName="vendorHeader.vendorTypeCode" />
 				<bean parent="FieldDefinition" p:attributeName="vendorStateForLookup" />
+				<bean parent="FieldDefinition" p:attributeName="vendorHeader.vendorCorpCitizenCode" />
 				<bean parent="FieldDefinition" p:attributeName="vendorCommoditiesAsString" />
 				<bean parent="FieldDefinition" p:attributeName="vendorHeader.vendorSupplierDiversitiesAsString" />
 			</list>

@@ -1474,7 +1474,7 @@ public class VendorRule extends MaintenanceDocumentRuleBase {
 
                     Date signedDate = vDetail.getVendorHeader().getVendorW8SignedDate();
                     if (ObjectUtils.isNotNull(signedDate)) {
-                        if (dateTimeService.dateDiff(signedDate, today, false) <= 0) {
+                        if (dateTimeService.dateDiff(signedDate, today, false) < 0) {
                             putFieldError(VendorPropertyConstants.VENDOR_W8SIGNED_DATE, VendorKeyConstants.ERROR_VENDOR_W8ANDW9_SIGNED_AFTER_TODAY);
                             valid &= false;
                         }
@@ -1500,7 +1500,7 @@ public class VendorRule extends MaintenanceDocumentRuleBase {
 
                     Date signedDate = vDetail.getVendorHeader().getVendorW9SignedDate();
                     if (ObjectUtils.isNotNull(signedDate)) {
-                        if (dateTimeService.dateDiff(signedDate, today, false) <= 0) {
+                        if (dateTimeService.dateDiff(signedDate, today, false) < 0) {
                             putFieldError(VendorPropertyConstants.VENDOR_DOB, VendorKeyConstants.ERROR_VENDOR_W8ANDW9_SIGNED_AFTER_TODAY);
                             valid &= false;
                         }
@@ -1523,7 +1523,7 @@ public class VendorRule extends MaintenanceDocumentRuleBase {
 
             Date dobDate = vDetail.getVendorHeader().getVendorDOB();
             if (ObjectUtils.isNotNull(dobDate)) {
-                if (dateTimeService.dateDiff(dobDate, today, false) <= 0) {
+                if (dateTimeService.dateDiff(dobDate, today, false) < 0) {
                     putFieldError(VendorPropertyConstants.VENDOR_DOB, VendorKeyConstants.ERROR_VENDOR_W8ANDW9_SIGNED_AFTER_TODAY);
                     valid &= false;
                 }
