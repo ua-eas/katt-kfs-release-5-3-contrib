@@ -346,7 +346,7 @@
 	      <column name="OBJ_ID" value="KFSTP-1359-3"/>
 	      <column name="VER_NBR" valueNumeric="1"/>
 	      <column name="PARM_TYP_CD" value="VALID"/>
-	      <column name="VAL" value="^[A-NP-Z0-9]{6}[.][A-NP-Z0-9]{5}[.](LE|SL|ME|BR|SP)[.]\\d{3}$"/>
+	      <column name="VAL" value="^[A-NP-Z0-9]{6}[.][A-NP-Z0-9]{5}[.](LE|SL|ME|BR|SP)[.]\d{3}$"/>
 	      <column name="PARM_DESC_TXT" value="Java Regular expressions that describe the acceptable formats for GIIN numbers."/>
 	      <column name="EVAL_OPRTR_CD" value="A"/>
 	    </insert>
