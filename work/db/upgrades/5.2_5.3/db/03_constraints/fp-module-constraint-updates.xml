@@ -19,6 +19,6 @@
 	xsi:schemaLocation='http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd'>
   
 	<changeSet author="KFS53" id="KFSTI-442">
-		<addNotNullConstraint tableName="FP_PRCRMNT_CARD_DFLT_T" columnName="CC_NBR" columnDataType="VARCHAR2(16)" />
+		<addNotNullConstraint tableName="FP_PRCRMNT_CARD_DFLT_T" columnName="CC_NBR" columnDataType="VARCHAR(16)" />
 	</changeSet>
 </databaseChangeLog>
